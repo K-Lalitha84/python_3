@@ -188,6 +188,26 @@ count of negative entered : 4
 count of zeros entered : 2
 '''
 
+
+code--12
+
+''' program to convert binary num to decimal number by using while loop only
+input=1101
+output=13
+'''
+bnum=int(input("enter a binary number:"))
+dnum=i=0
+while bnum!=0: #bnum>0
+    r=bnum%10
+    dnum=dnum+r*(2**i)
+    bnum//=10
+    i+=1
+print("Decimal number:",dnum)
+
+output::
+enter a binary number: 1101
+Decimal number: 13
+
     
 
 
